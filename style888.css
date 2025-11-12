@@ -1,0 +1,15 @@
+section {
+    border: 2px solid red;
+    color: black;
+    text-transform: capitalize;
+}
+h2 li {
+    color: navy;
+    border: 3px dotted navy;
+}
+h2 {
+    color: magenta;
+}
+li {
+    border: inherit;
+}
