@@ -1,8 +1,8 @@
-section {
+/* section {
     border: 2px solid red;
     color: black;
     text-transform: capitalize;
-}
+} */
 h2 li {
     color: navy;
     border: 3px dotted navy;
@@ -13,3 +13,46 @@ h2 {
 li {
     border: inherit;
 }
+.https://flipclock.online/:link {
+    color: green(94, 6, 97, 0.259);
+    text-decoration: none;
+}
+.https://flipclock.online/:link {
+    color: rgba(94, 6, 97, 0.259);
+    text-decoration: none;
+}
+ .btn-hover {
+    background-color: black;
+    color: aliceblue;
+    display: block;
+    padding: 20px 40px;
+    border-radius: 20px;
+ }
+ .btn-hover:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 10px solid rgb(189, 251, 254);
+ }
+ ol {
+    background-color: aquamarine;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+ }
+ .lesson {
+    margin: 10px;
+ }
+ .lesson:hover {
+    background-color: cornflowerblue;
+    font-size: 20px;
+ }
+ .lesson:nth-child(even) {
+    background-color: green;
+ }
+ .lesson:not(:first-child) {
+    color: rgb(91, 19, 158);
+ }
+ .lesson:nth-child(2n+2) {
+    font-size: 30px;
+ }

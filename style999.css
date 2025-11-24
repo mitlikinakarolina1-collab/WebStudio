@@ -1,0 +1,46 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+span {
+    font-family: "Tangerine";
+    font-size: 40px;
+    font-weight: 400;
+}
+p {
+    text-indent: 15px;
+    line-height: 30px;
+}
+h2 {
+    text-align: center;
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+.part2 {
+    font-style: normal;
+    font-weight: 400;
+}
+.part2 h2 {
+    font-size: 40px;
+    width: 80%;
+    font-family:"Tangerine", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    line-height: 2px;
+}
+.part2 p::first-letter {
+font-size: 5em;
+color: red;
+text-decoration: underline;
+}
+.part2 p::selection {
+    background-color: rgb(145, 255, 0);
+    color: rgb(144, 0, 255);
+    font-size: 1.2;
+}
+.title {
+    text-shadow: 3px 5px 2px red, -3px -5px 2px blue;
+}
