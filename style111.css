@@ -1,0 +1,19 @@
+h1 {
+    font-size: 36px;
+    color: #2a2a2a;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
