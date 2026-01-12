@@ -1,0 +1,39 @@
+.filters {
+  padding: 50px 0;
+}
+
+.filter-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.filter-list button {
+  padding: 6px 22px;
+  border: none;
+  background: #f5f4fa;
+  cursor: pointer;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.portfolio-card {
+  flex-basis: calc((100% - 60px) / 3);
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-card img {
+  width: 100%;
+}
+
+.portfolio-card h3 {
+  padding: 20px 20px 0;
+}
+
+.portfolio-card p {
+  padding: 0 20px 20px;
+  color: #757575;
+}
