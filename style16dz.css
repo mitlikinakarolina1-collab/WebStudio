@@ -1,0 +1,34 @@
+.bg-box {
+  width: 900px;
+  height: 500px;
+
+  background-color: #2f7d0a;
+
+  background-image:
+    url("https://www.freeiconspng.com/uploads/lamp-png-0.png"),
+    url("https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/%D0%81%D0%B6%D0%B8%D0%BA.png/revision/latest?cb=20180209130328&path-prefix=ru"), 
+    url("https://avatanplus.com/files/resources/mid/58eb07b830eab15b56162788.png"), 
+    url(./img/photo_2026-01-12_19-42-03.jpg),
+    url("https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png"); 
+
+  background-repeat:
+    repeat-x,
+    repeat-y,
+    repeat-y,
+    no-repeat,
+    repeat-x;
+
+  background-position:
+    top,
+    left,
+    right,
+    center,
+    bottom;
+
+  background-size:
+    60px,
+    40px,
+    40px,
+    400px,
+    200px;
+}
