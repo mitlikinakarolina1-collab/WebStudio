@@ -1,10 +1,11 @@
 :root {
-  --primary-color: #2196F3;
+ --primary-color: #2196F3;
   --white: #ffffff;
   --text-main: #212121;
   --text-secondary: #757575;
   --anim-duration: 250ms;
   --anim-timing: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition: var(--anim-duration) var(--anim-timing);
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -72,7 +73,7 @@ img {
   font-weight: 500;
   letter-spacing: 0.02em;
   position: relative;
-  transition: color var(--transition);
+  color: var(--text-main); 
 }
 
 .nav-link:hover,
@@ -108,7 +109,17 @@ img {
   padding: 32px 0;
   transition: color var(--transition);
 }
-
+.nav-link, 
+.contact-link, 
+.footer-link,
+.social-link,
+.filter-btn {
+  transition: color var(--transition), 
+              background-color var(--transition), 
+              box-shadow var(--transition),
+              fill var(--transition),
+              border-color var(--transition);
+}
 .contact-link:hover,
 .contact-link:focus {
   color: var(--primary-color);
@@ -350,4 +361,3 @@ img {
 .subscribe-btn:focus {
   background-color: #188ce8;
 }
-
